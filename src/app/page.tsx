@@ -67,9 +67,11 @@ export default function Home() {
               <p className="text-xs leading-relaxed mb-18 text-white">
                 Nossos advogados são selecionados por competência e experiência consolidada. Cada membro traz expertise especializada e dedicação genuína aos interesses dos clientes com atendimento humanizado.
               </p>
-              <Button className="bg-white hover:bg-slate-100 text-xs w-fit px-3 py-2 hover:scale-105 transition-transform" style={{ color: '#27444C' }}>
-                Conhecer equipe →
-              </Button>
+              <Link href="/equipe">
+                <Button className="bg-white hover:bg-slate-100 text-xs w-fit px-3 py-2 hover:scale-105 transition-transform" style={{ color: '#27444C' }}>
+                  Conhecer equipe →
+                </Button>
+              </Link>
             </motion.div>
 
 
@@ -210,11 +212,11 @@ export default function Home() {
               <p className="text-white leading-relaxed text-sm">
                 Nossos advogados são selecionados por competência e experiência consolidada. Cada membro traz expertise especializada e dedicação genuína aos interesses dos clientes com atendimento humanizado.
               </p>
-              <a href="#sobre">
+              <Link href="/sobre">
                 <Button className="text-xs sm:text-sm px-6 py-3 rounded-lg w-full sm:w-fit hover:scale-105 transition-transform bg-white hover:bg-slate-100" style={{ color: '#27444C' }}>
                   Conhecer mais →
                 </Button>
-              </a>
+              </Link>
             </ScrollReveal>
           </div>
         </div>
@@ -360,75 +362,81 @@ export default function Home() {
 
           <div className="space-y-4 sm:space-y-6 max-w-5xl mx-auto">
             <ScrollReveal delay={0.3}>
-              <motion.div 
-                whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
-                transition={{ duration: 0.2 }}
-                className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
-              >
+              <Link href="/servicos/direito-medico-saude">
                 <motion.div 
-                  whileHover={{ rotate: 5, scale: 1.05 }}
-                  className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
-                  style={{ backgroundColor: '#27444C' }}
+                  whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+                  transition={{ duration: 0.2 }}
+                  className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <Briefcase className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  <motion.div 
+                    whileHover={{ rotate: 5, scale: 1.05 }}
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    style={{ backgroundColor: '#27444C' }}
+                  >
+                    <Briefcase className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  </motion.div>
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
+                      Direito médico
+                    </h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      Expertise em responsabilidade civil médica, direitos do paciente e defesa de profissionais de saúde com atuação em todo território nacional.
+                    </p>
+                  </div>
                 </motion.div>
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
-                    Direito médico
-                  </h3>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Expertise em responsabilidade civil médica, direitos do paciente e defesa de profissionais de saúde com atuação em todo território nacional.
-                  </p>
-                </div>
-              </motion.div>
+              </Link>
             </ScrollReveal>
 
             <ScrollReveal delay={0.4}>
-              <motion.div 
-                whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
-                transition={{ duration: 0.2 }}
-                className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
-              >
+              <Link href="/servicos/direito-estudantil">
                 <motion.div 
-                  whileHover={{ rotate: 5, scale: 1.05 }}
-                  className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
-                  style={{ backgroundColor: '#27444C' }}
+                  whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+                  transition={{ duration: 0.2 }}
+                  className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <BookOpen className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  <motion.div 
+                    whileHover={{ rotate: 5, scale: 1.05 }}
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    style={{ backgroundColor: '#27444C' }}
+                  >
+                    <BookOpen className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  </motion.div>
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
+                      Direito estudantil
+                    </h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      Assessoria completa para estudantes, famílias e instituições de ensino em questões acadêmicas, educacionais e administrativas.
+                    </p>
+                  </div>
                 </motion.div>
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
-                    Direito estudantil
-                  </h3>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Assessoria completa para estudantes, famílias e instituições de ensino em questões acadêmicas, educacionais e administrativas.
-                  </p>
-                </div>
-              </motion.div>
+              </Link>
             </ScrollReveal>
 
             <ScrollReveal delay={0.5}>
-              <motion.div 
-                whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
-                transition={{ duration: 0.2 }}
-                className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
-              >
+              <Link href="/areas-atuacao">
                 <motion.div 
-                  whileHover={{ rotate: 5, scale: 1.05 }}
-                  className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
-                  style={{ backgroundColor: '#27444C' }}
+                  whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
+                  transition={{ duration: 0.2 }}
+                  className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <Scale className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  <motion.div 
+                    whileHover={{ rotate: 5, scale: 1.05 }}
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    style={{ backgroundColor: '#27444C' }}
+                  >
+                    <Scale className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
+                  </motion.div>
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
+                      Consultoria jurídica especializada
+                    </h3>
+                    <p className="text-sm text-slate-600 leading-relaxed">
+                      Orientação jurídica estratégica com atendimento personalizado, foco em resultados e compromisso com a excelência.
+                    </p>
+                  </div>
                 </motion.div>
-                <div>
-                  <h3 className="text-xl sm:text-2xl font-semibold text-slate-900 mb-2 sm:mb-3">
-                    Consultoria jurídica especializada
-                  </h3>
-                  <p className="text-sm text-slate-600 leading-relaxed">
-                    Orientação jurídica estratégica com atendimento personalizado, foco em resultados e compromisso com a excelência.
-                  </p>
-                </div>
-              </motion.div>
+              </Link>
             </ScrollReveal>
           </div>
         </div>
@@ -493,12 +501,13 @@ export default function Home() {
                 <div>
                   <h4 className="font-semibold mb-4 text-white">Serviços</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Cível</a></li>
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Administrativo</a></li>
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Empresarial</a></li>
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Tributário</a></li>
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Médico</a></li>
-                    <li><a href="#servicos" className="hover:text-[#27444C]400 transition-colors">Direito Estudantil</a></li>
+                    <li><Link href="/servicos/direito-consumidor" className="hover:text-white transition-colors">Direito do Consumidor</Link></li>
+                    <li><Link href="/servicos/direito-administrativo" className="hover:text-white transition-colors">Direito Administrativo</Link></li>
+                    <li><Link href="/servicos/direito-empresarial" className="hover:text-white transition-colors">Direito Empresarial</Link></li>
+                    <li><Link href="/servicos/direito-tributario" className="hover:text-white transition-colors">Direito Tributário</Link></li>
+                    <li><Link href="/servicos/direito-medico-saude" className="hover:text-white transition-colors">Direito Médico e da Saúde</Link></li>
+                    <li><Link href="/servicos/direito-estudantil" className="hover:text-white transition-colors">Direito Estudantil</Link></li>
+                    <li><Link href="/servicos/direito-digital" className="hover:text-white transition-colors">Direito Digital</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>
@@ -507,9 +516,10 @@ export default function Home() {
                 <div>
                   <h4 className="font-semibold mb-4 text-white">Institucional</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><a href="#sobre" className="hover:text-[#27444C]400 transition-colors">Sobre Nós</a></li>
-                    <li><a href="#sobre" className="hover:text-[#27444C]400 transition-colors">Nossa Equipe</a></li>
-                    <li><a href="#" className="hover:text-[#27444C]400 transition-colors">Carreiras</a></li>
+                    <li><Link href="/sobre" className="hover:text-white transition-colors">Sobre Nós</Link></li>
+                    <li><Link href="/equipe" className="hover:text-white transition-colors">Nossa Equipe</Link></li>
+                    <li><Link href="/areas-atuacao" className="hover:text-white transition-colors">Áreas de Atuação</Link></li>
+                    <li><Link href="/trabalhe-conosco" className="hover:text-white transition-colors">Trabalhe Conosco</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>
