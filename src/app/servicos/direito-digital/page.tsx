@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { ScrollReveal } from "@/components/animations/scroll-reveal";
 import { AnimatedNavbar } from "@/components/animations/navbar";
-import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Phone, Mail, MapPin, CheckCircle2, Shield, FileText, Users } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
