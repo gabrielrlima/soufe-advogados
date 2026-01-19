@@ -237,10 +237,13 @@ export default function DireitoDigitalPage() {
                 <div>
                   <h4 className="font-semibold mb-4 text-white">Serviços</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Cível</Link></li>
-                    <li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Administrativo</Link></li>
-                    <li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Empresarial</Link></li>
-                    <li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Tributário</Link></li>
+                    <li><Link href="/servicos/direito-consumidor" className="hover:text-white transition-colors">Direito do Consumidor</Link></li>
+                    <li><Link href="/servicos/direito-administrativo" className="hover:text-white transition-colors">Direito Administrativo</Link></li>
+                    <li><Link href="/servicos/direito-empresarial" className="hover:text-white transition-colors">Direito Empresarial</Link></li>
+                    <li><Link href="/servicos/direito-tributario" className="hover:text-white transition-colors">Direito Tributário</Link></li>
+                    <li><Link href="/servicos/direito-medico-saude" className="hover:text-white transition-colors">Direito Médico e da Saúde</Link></li>
+                    <li><Link href="/servicos/direito-estudantil" className="hover:text-white transition-colors">Direito Estudantil</Link></li>
+                    <li><Link href="/servicos/direito-digital" className="hover:text-white transition-colors">Direito Digital</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>
@@ -249,9 +252,10 @@ export default function DireitoDigitalPage() {
                 <div>
                   <h4 className="font-semibold mb-4 text-white">Institucional</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><Link href="/#sobre" className="hover:text-[#27444C]400 transition-colors">Sobre Nós</Link></li>
-                    <li><Link href="/equipe" className="hover:text-[#27444C]400 transition-colors">Nossa Equipe</Link></li>
-                    <li><Link href="/#contato" className="hover:text-[#27444C]400 transition-colors">Carreiras</Link></li>
+                    <li><Link href="/sobre" className="hover:text-white transition-colors">Sobre Nós</Link></li>
+                    <li><Link href="/equipe" className="hover:text-white transition-colors">Nossa Equipe</Link></li>
+                    <li><Link href="/areas-atuacao" className="hover:text-white transition-colors">Áreas de Atuação</Link></li>
+                    <li><Link href="/trabalhe-conosco" className="hover:text-white transition-colors">Trabalhe Conosco</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>

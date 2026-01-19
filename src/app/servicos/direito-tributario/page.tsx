@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { ScrollReveal } from "@/components/animations/scroll-reveal";
 import { AnimatedNavbar } from "@/components/animations/navbar";
 import { Separator } from "@/components/ui/separator";
-import { Phone, Mail, CheckCircle2, Calculator, TrendingDown, FileCheck } from "lucide-react";
+import { Phone, Mail, MapPin, CheckCircle2, Calculator, TrendingDown, FileCheck } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
@@ -62,7 +62,91 @@ export default function DireitoTributarioPage() {
           </div>
         </div>
       </section>
-      <footer className="py-12 sm:py-16 px-6 text-white" style={{ backgroundColor: '#27444C' }}><div className="container mx-auto max-w-6xl"><div className="grid grid-cols-1 md:grid-cols-12 gap-8 sm:gap-12 mb-8 sm:mb-12"><ScrollReveal delay={0.1} className="md:col-span-4 space-y-4"><Image src="/logosoufe.png" alt="Soufe Advogados" width={120} height={40} className="h-10 w-auto mb-4" /><p className="text-slate-400 text-sm leading-relaxed">Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.</p></ScrollReveal><div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8"><ScrollReveal delay={0.2}><div><h4 className="font-semibold mb-4 text-white">Serviços</h4><ul className="space-y-3 text-sm text-slate-400"><li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Cível</Link></li><li><Link href="/areas-atuacao" className="hover:text-[#27444C]400 transition-colors">Direito Administrativo</Link></li></ul></div></ScrollReveal><ScrollReveal delay={0.3}><div><h4 className="font-semibold mb-4 text-white">Institucional</h4><ul className="space-y-3 text-sm text-slate-400"><li><Link href="/#sobre" className="hover:text-[#27444C]400 transition-colors">Sobre Nós</Link></li><li><Link href="/equipe" className="hover:text-[#27444C]400 transition-colors">Nossa Equipe</Link></li></ul></div></ScrollReveal><ScrollReveal delay={0.4}><div><h4 className="font-semibold mb-4 text-white">Contato</h4><ul className="space-y-3 text-sm text-slate-400"><li className="flex items-start gap-2"><Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" /><span>(62) 99637-0290</span></li><li className="flex items-start gap-2"><Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" /><span>contato@soufeadvogados.com.br</span></li></ul></div></ScrollReveal></div></div><Separator className="bg-slate-800 mb-6 sm:mb-8" /><div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400"><p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p><a href="https://www.linkedin.com/in/grlimaa/" target="_blank" rel="noopener noreferrer" className="hover:text-[#27444C]400 transition-colors">Design e desenvolvimento feitos por Garo</a></div></div></footer>
+      <footer className="py-12 sm:py-16 px-6 text-white" style={{ backgroundColor: '#27444C' }}>
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-8 sm:gap-12 mb-8 sm:mb-12">
+            <ScrollReveal delay={0.1} className="md:col-span-4 space-y-4">
+              <Image
+                src="/logosoufe.png"
+                alt="Soufe Advogados"
+                width={120}
+                height={40}
+                className="h-10 w-auto mb-4"
+              />
+              <p className="text-slate-400 text-sm leading-relaxed">
+                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+              </p>
+            </ScrollReveal>
+
+            <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
+              <ScrollReveal delay={0.2}>
+                <div>
+                  <h4 className="font-semibold mb-4 text-white">Serviços</h4>
+                  <ul className="space-y-3 text-sm text-slate-400">
+                    <li><Link href="/servicos/direito-consumidor" className="hover:text-white transition-colors">Direito do Consumidor</Link></li>
+                    <li><Link href="/servicos/direito-administrativo" className="hover:text-white transition-colors">Direito Administrativo</Link></li>
+                    <li><Link href="/servicos/direito-empresarial" className="hover:text-white transition-colors">Direito Empresarial</Link></li>
+                    <li><Link href="/servicos/direito-tributario" className="hover:text-white transition-colors">Direito Tributário</Link></li>
+                    <li><Link href="/servicos/direito-medico-saude" className="hover:text-white transition-colors">Direito Médico e da Saúde</Link></li>
+                    <li><Link href="/servicos/direito-estudantil" className="hover:text-white transition-colors">Direito Estudantil</Link></li>
+                    <li><Link href="/servicos/direito-digital" className="hover:text-white transition-colors">Direito Digital</Link></li>
+                  </ul>
+                </div>
+              </ScrollReveal>
+
+              <ScrollReveal delay={0.3}>
+                <div>
+                  <h4 className="font-semibold mb-4 text-white">Institucional</h4>
+                  <ul className="space-y-3 text-sm text-slate-400">
+                    <li><Link href="/sobre" className="hover:text-white transition-colors">Sobre Nós</Link></li>
+                    <li><Link href="/equipe" className="hover:text-white transition-colors">Nossa Equipe</Link></li>
+                    <li><Link href="/areas-atuacao" className="hover:text-white transition-colors">Áreas de Atuação</Link></li>
+                    <li><Link href="/trabalhe-conosco" className="hover:text-white transition-colors">Trabalhe Conosco</Link></li>
+                  </ul>
+                </div>
+              </ScrollReveal>
+
+              <ScrollReveal delay={0.4}>
+                <div>
+                  <h4 className="font-semibold mb-4 text-white">Contato</h4>
+                  <ul className="space-y-3 text-sm text-slate-400">
+                    <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99637-0290</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>contato@soufeadvogados.com.br</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                    </li>
+                  </ul>
+                </div>
+              </ScrollReveal>
+            </div>
+          </div>
+
+          <Separator className="bg-slate-800 mb-6 sm:mb-8" />
+
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <a 
+              href="https://www.linkedin.com/in/grlimaa/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-[#27444C]400 transition-colors"
+            >
+              Design e desenvolvimento feitos por Garo
+            </a>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
