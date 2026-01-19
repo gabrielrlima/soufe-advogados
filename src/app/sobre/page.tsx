@@ -132,7 +132,7 @@ export default function SobrePage() {
               <ScrollReveal delay={0.2}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all"
+                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all h-full min-h-[280px] flex flex-col"
                 >
                   <div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-6">
                     <Target className="w-6 h-6 text-[#27444C]600" strokeWidth={1.5} />
@@ -148,7 +148,7 @@ export default function SobrePage() {
               <ScrollReveal delay={0.3}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all"
+                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all h-full min-h-[280px] flex flex-col"
                 >
                   <div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-6">
                     <Award className="w-6 h-6 text-[#27444C]600" strokeWidth={1.5} />
@@ -164,7 +164,7 @@ export default function SobrePage() {
               <ScrollReveal delay={0.4}>
                 <motion.div
                   whileHover={{ y: -4 }}
-                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all"
+                  className="bg-white rounded-2xl p-8 border border-slate-200 hover:border-[#27444C]500 transition-all h-full min-h-[280px] flex flex-col"
                 >
                   <div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-6">
                     <Heart className="w-6 h-6 text-[#27444C]600" strokeWidth={1.5} />
