@@ -167,38 +167,37 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row gap-6 items-start">
             <ScrollReveal delay={0.3} className="flex-1 w-full">
               <div
-                className="rounded-xl p-6 sm:p-8 md:p-10 min-h-[200px] bg-white"
+                className="rounded-xl p-8 sm:p-12 md:p-16 bg-white"
               >
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-6 h-full">
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-12 sm:gap-16 md:gap-24">
+                  {/* Anos de experiência */}
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
                     viewport={{ once: true }}
-                    className="flex flex-col justify-center text-center sm:text-left"
+                    className="flex flex-col items-center text-center"
                   >
-                    <p className="text-xs sm:text-sm text-slate-600 mb-4 sm:mb-6 tracking-wide">Advogados especializados</p>
-                    <p className="text-5xl sm:text-6xl md:text-7xl font-light" style={{ color: '#5A9FA9', letterSpacing: '-2.16px', lineHeight: '1.2' }}>10</p>
+                    <p className="text-7xl sm:text-8xl md:text-9xl font-light mb-4" style={{ color: '#5A9FA9', letterSpacing: '-2.16px', lineHeight: '1' }}>10</p>
+                    <p className="text-sm sm:text-base text-slate-600 tracking-wide uppercase font-medium">Anos de experiência</p>
                   </motion.div>
+
+                  {/* Vertical Divider - Hidden on mobile */}
+                  <div className="hidden sm:block w-px h-32 bg-slate-200"></div>
+                  
+                  {/* Horizontal Divider - Visible on mobile */}
+                  <div className="sm:hidden w-32 h-px bg-slate-200"></div>
+
+                  {/* Casos em atendimento */}
                   <motion.div 
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.3 }}
                     viewport={{ once: true }}
-                    className="flex flex-col justify-center text-center sm:text-left"
+                    className="flex flex-col items-center text-center"
                   >
-                    <p className="text-xs sm:text-sm text-slate-600 mb-4 sm:mb-6 tracking-wide">Anos de experiência</p>
-                    <p className="text-5xl sm:text-6xl md:text-7xl font-light" style={{ color: '#5A9FA9', letterSpacing: '-2.16px', lineHeight: '1.2' }}>10</p>
-                  </motion.div>
-                  <motion.div 
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.6, delay: 0.4 }}
-                    viewport={{ once: true }}
-                    className="flex flex-col justify-center text-center sm:text-left"
-                  >
-                    <p className="text-xs sm:text-sm text-slate-600 mb-4 sm:mb-6 tracking-wide">Casos em atendimento</p>
-                    <p className="text-5xl sm:text-6xl md:text-7xl font-light" style={{ color: '#5A9FA9', letterSpacing: '-2.16px', lineHeight: '1.2' }}>10k</p>
+                    <p className="text-7xl sm:text-8xl md:text-9xl font-light mb-4" style={{ color: '#5A9FA9', letterSpacing: '-2.16px', lineHeight: '1' }}>11k</p>
+                    <p className="text-sm sm:text-base text-slate-600 tracking-wide uppercase font-medium">Casos em atendimento</p>
                   </motion.div>
                 </div>
               </div>
@@ -376,7 +375,7 @@ export default function Home() {
                       Direito médico
                     </h3>
                     <p className="text-sm text-slate-600 leading-relaxed">
-                      Expertise em responsabilidade civil médica, direitos do paciente e defesa de profissionais de saúde com atuação em todo território nacional.
+                      Escritório especializado em Direito Médico: defesa em processos judiciais e éticos, assessoria no Mais Médicos e revalidação de diplomas estrangeiros.
                     </p>
                   </div>
                 </motion.div>
@@ -402,7 +401,7 @@ export default function Home() {
                       Direito estudantil
                     </h3>
                     <p className="text-sm text-slate-600 leading-relaxed">
-                      Assessoria completa para estudantes, famílias e instituições de ensino em questões acadêmicas, educacionais e administrativas.
+                      Atuação em Direito Estudantil no ensino médio e superior, com suporte em FIES, SISU, transferências e demais demandas acadêmicas.
                     </p>
                   </div>
                 </motion.div>
@@ -529,12 +528,16 @@ export default function Home() {
                       <span>(62) 99637-0290</span>
                     </li>
                     <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
                       <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>contato@soufeadvogados.com.br</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>Edifício Euro Working Concept<br/>Rua João de Abreu, 116<br/>Setor Oeste, Goiânia - GO<br/>CEP 74120-011</span>
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -545,7 +548,7 @@ export default function Home() {
           <Separator className="bg-slate-800 mb-6 sm:mb-8" />
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
-            <p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
             <a 
               href="https://www.linkedin.com/in/grlimaa/" 
               target="_blank" 

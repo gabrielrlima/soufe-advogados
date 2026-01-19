@@ -12,13 +12,10 @@ import Link from "next/link";
 export default function DireitoMedicoSaudePage() {
   const services = [
     "Defesa de profissionais da saúde (médicos, dentistas)",
-    "Ações contra planos de saúde e SUS",
     "Responsabilidade civil médica e hospitalar",
     "Processos éticos perante conselhos (CRM, CRO)",
-    "Cobertura de tratamentos e medicamentos",
     "Erro médico e indenizações",
     "Consultoria preventiva para clínicas e hospitais",
-    "Negativas indevidas de cobertura",
   ];
 
   const expertise = [
@@ -26,11 +23,6 @@ export default function DireitoMedicoSaudePage() {
       icon: Shield,
       title: "Defesa Profissional",
       description: "Representação de médicos e profissionais da saúde em processos éticos e judiciais."
-    },
-    {
-      icon: Heart,
-      title: "Direitos do Paciente",
-      description: "Ações para garantir acesso a tratamentos, cirurgias e medicamentos negados indevidamente."
     },
     {
       icon: Users,
@@ -67,8 +59,7 @@ export default function DireitoMedicoSaudePage() {
 
           <ScrollReveal delay={0.4}>
             <p className="text-lg sm:text-xl text-white/90 leading-relaxed max-w-3xl">
-              Defesa especializada para profissionais da saúde e pacientes, abrangendo erro médico, 
-              responsabilidade hospitalar e direitos relacionados a planos de saúde.
+              Defesa especializada de profissionais da saúde em processos judiciais e éticos, com assessoria no Programa Mais Médicos e revalidação de diplomas estrangeiros.
             </p>
           </ScrollReveal>
         </div>
@@ -84,19 +75,19 @@ export default function DireitoMedicoSaudePage() {
                     Sobre a Área
                   </h2>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    O Direito Médico e da Saúde é uma área especializada que trata das relações jurídicas 
-                    envolvendo profissionais da saúde, instituições médicas e pacientes. Atuamos tanto na 
-                    defesa de médicos, dentistas e hospitais quanto na proteção dos direitos dos pacientes.
+                    Atuamos de forma especializada em Direito Médico, oferecendo assessoria jurídica completa e defesa técnica aos profissionais da saúde, com foco na proteção do exercício profissional e na prevenção de riscos jurídicos.
                   </p>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    Para os profissionais da saúde, oferecemos consultoria preventiva, orientação ético-legal, 
-                    defesa em processos éticos perante conselhos de classe (CRM, CRO) e representação em ações 
-                    de responsabilidade civil. O objetivo é garantir segurança jurídica no exercício da profissão.
+                    Nossa atuação abrange a defesa de médicos e demais profissionais da área da saúde em processos judiciais e administrativos, incluindo ações de responsabilidade civil, processos ético-disciplinares, sindicâncias, demandas perante Conselhos de Classe e outras questões relacionadas à prática profissional.
+                  </p>
+                  <p className="text-white/90 leading-relaxed mb-4">
+                    Além disso, possuímos sólida experiência na assessoria jurídica relacionada ao Programa Mais Médicos, prestando suporte em todas as etapas, desde o ingresso e permanência no programa até a defesa em eventuais procedimentos administrativos, garantindo o respeito aos direitos dos profissionais participantes.
+                  </p>
+                  <p className="text-white/90 leading-relaxed mb-4">
+                    Atuamos também de forma especializada na revalidação de diplomas médicos obtidos no exterior, oferecendo orientação jurídica estratégica nos processos de revalidação, recursos administrativos e medidas judiciais quando necessárias, sempre com atenção às normas legais vigentes e às exigências das instituições competentes.
                   </p>
                   <p className="text-white/90 leading-relaxed">
-                    Para os pacientes, atuamos em ações contra planos de saúde e o SUS em casos de negativas 
-                    indevidas de cobertura para tratamentos, cirurgias ou medicamentos de alto custo. Também 
-                    representamos vítimas de erro médico, buscando a devida reparação por danos causados.
+                    Nosso trabalho é pautado pela atuação técnica, sigilo, ética e comprometimento com a segurança jurídica dos profissionais de saúde, buscando soluções eficazes que assegurem tranquilidade e respaldo legal para o exercício da profissão.
                   </p>
                 </div>
               </ScrollReveal>
@@ -181,14 +172,14 @@ export default function DireitoMedicoSaudePage() {
                       Outras Áreas
                     </h3>
                     <div className="space-y-3">
-                      <Link href="/servicos/direito-ambiental" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
-                        Direito Ambiental
+                      <Link href="/servicos/direito-administrativo" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
+                        Direito Administrativo
                       </Link>
                       <Link href="/servicos/direito-digital" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
                         Direito Digital
                       </Link>
-                      <Link href="/servicos/direito-trabalhista" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
-                        Direito Trabalhista
+                      <Link href="/servicos/direito-consumidor" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
+                        Direito do Consumidor
                       </Link>
                       <Link href="/areas-atuacao" className="block text-sm text-[#27444C]600 hover:text-[#27444C]700 font-medium transition-colors">
                         Ver todas as áreas →
@@ -251,12 +242,16 @@ export default function DireitoMedicoSaudePage() {
                       <span>(62) 99637-0290</span>
                     </li>
                     <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
                       <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>contato@soufeadvogados.com.br</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>Goiânia - GO</span>
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -267,7 +262,7 @@ export default function DireitoMedicoSaudePage() {
           <Separator className="bg-slate-800 mb-6 sm:mb-8" />
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
-            <p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
             <a 
               href="https://www.linkedin.com/in/grlimaa/" 
               target="_blank" 

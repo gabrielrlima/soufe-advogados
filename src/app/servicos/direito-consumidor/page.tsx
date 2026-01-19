@@ -182,8 +182,8 @@ export default function DireitoConsumidorPage() {
                       <Link href="/servicos/direito-administrativo" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
                         Direito Administrativo
                       </Link>
-                      <Link href="/servicos/direito-consumidor" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
-                        Direito do Consumidor
+                      <Link href="/servicos/direito-tributario" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
+                        Direito Tributário
                       </Link>
                       <Link href="/servicos/direito-digital" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
                         Direito Digital
@@ -249,12 +249,16 @@ export default function DireitoConsumidorPage() {
                       <span>(62) 99637-0290</span>
                     </li>
                     <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
                       <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>contato@soufeadvogados.com.br</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>Goiânia - GO</span>
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -265,7 +269,7 @@ export default function DireitoConsumidorPage() {
           <Separator className="bg-slate-800 mb-6 sm:mb-8" />
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
-            <p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
             <a 
               href="https://www.linkedin.com/in/grlimaa/" 
               target="_blank" 

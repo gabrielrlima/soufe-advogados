@@ -90,15 +90,16 @@ export default function DireitoEstudantilPage() {
                     Sobre a Área
                   </h2>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    O Direito Estudantil protege os interesses de alunos em todos os níveis de ensino, 
-                    desde o fundamental até o superior. Nossa atuação garante um ambiente educacional 
-                    justo e igualitário, fundamentado na Constituição Federal e na Lei de Diretrizes e 
-                    Bases da Educação Nacional.
+                    Atuamos de forma especializada em Direito Estudantil, prestando assessoria jurídica e defesa dos direitos de estudantes do ensino médio e do ensino superior, em instituições de ensino públicas e privadas.
+                  </p>
+                  <p className="text-white/90 leading-relaxed mb-4">
+                    Nossa atuação abrange demandas relacionadas à obtenção e manutenção de programas governamentais, como FIES e SISU, incluindo orientação jurídica, correção de irregularidades, recursos administrativos e medidas judiciais quando necessário, sempre visando assegurar o acesso e a permanência do estudante na instituição de ensino.
+                  </p>
+                  <p className="text-white/90 leading-relaxed mb-4">
+                    Também prestamos suporte jurídico em questões envolvendo transferência de instituição ou curso, aproveitamento de disciplinas, negativa ou impedimento de matrícula, cancelamentos indevidos, trancamento, bem como outras situações que impactam diretamente a vida acadêmica do estudante.
                   </p>
                   <p className="text-white/90 leading-relaxed">
-                    Trabalhamos com estudantes, famílias e instituições de ensino, oferecendo consultoria 
-                    preventiva e defesa em processos administrativos e judiciais. Nossa expertise abrange 
-                    desde questões contratuais até casos de bullying, discriminação e acidentes escolares.
+                    Nosso trabalho é pautado pela atuação técnica, ética e comprometida com a efetivação do direito à educação, buscando soluções jurídicas eficientes que garantam segurança, continuidade e estabilidade na trajetória educacional do estudante.
                   </p>
                 </div>
               </ScrollReveal>
@@ -195,8 +196,8 @@ export default function DireitoEstudantilPage() {
                       <Link href="/servicos/direito-tributario" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
                         Direito Tributário
                       </Link>
-                      <Link href="/servicos/direito-trabalhista" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
-                        Direito Trabalhista
+                      <Link href="/servicos/direito-consumidor" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">
+                        Direito do Consumidor
                       </Link>
                       <Link href="/areas-atuacao" className="block text-sm text-[#27444C]600 hover:text-[#27444C]700 font-medium transition-colors">
                         Ver todas as áreas →
@@ -260,12 +261,16 @@ export default function DireitoEstudantilPage() {
                       <span>(62) 99637-0290</span>
                     </li>
                     <li className="flex items-start gap-2">
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
                       <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>contato@soufeadvogados.com.br</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>Goiânia - GO</span>
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -276,7 +281,7 @@ export default function DireitoEstudantilPage() {
           <Separator className="bg-slate-800 mb-6 sm:mb-8" />
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
-            <p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
             <a 
               href="https://www.linkedin.com/in/grlimaa/" 
               target="_blank" 

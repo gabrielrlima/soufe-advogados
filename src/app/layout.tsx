@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "Soufe Advogados | Excelência Jurídica",
   description:
     "Escritório de advocacia especializado em direito cível, administrativo, empresarial e tributário. Atendimento humanizado e resultados comprovados.",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
