@@ -253,22 +253,27 @@ export default function TrabalheConoscoPage() {
             <div className="md:col-span-8 grid grid-cols-1 sm:grid-cols-3 gap-8">
               <ScrollReveal delay={0.2}>
                 <div>
-                  <h4 className="font-semibold mb-4 text-white">Institucional</h4>
+                  <h4 className="font-semibold mb-4 text-white">Serviços</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><Link href="/#sobre" className="hover:text-teal-400 transition-colors">Sobre Nós</Link></li>
-                    <li><Link href="/equipe" className="hover:text-teal-400 transition-colors">Nossa Equipe</Link></li>
-                    <li><Link href="/trabalhe-conosco" className="hover:text-teal-400 transition-colors">Trabalhe Conosco</Link></li>
+                    <li><Link href="/servicos/direito-consumidor" className="hover:text-white transition-colors">Direito do Consumidor</Link></li>
+                    <li><Link href="/servicos/direito-administrativo" className="hover:text-white transition-colors">Direito Administrativo</Link></li>
+                    <li><Link href="/servicos/direito-empresarial" className="hover:text-white transition-colors">Direito Empresarial</Link></li>
+                    <li><Link href="/servicos/direito-tributario" className="hover:text-white transition-colors">Direito Tributário</Link></li>
+                    <li><Link href="/servicos/direito-medico-saude" className="hover:text-white transition-colors">Direito Médico e da Saúde</Link></li>
+                    <li><Link href="/servicos/direito-estudantil" className="hover:text-white transition-colors">Direito Estudantil</Link></li>
+                    <li><Link href="/servicos/direito-digital" className="hover:text-white transition-colors">Direito Digital</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>
 
               <ScrollReveal delay={0.3}>
                 <div>
-                  <h4 className="font-semibold mb-4 text-white">Serviços</h4>
+                  <h4 className="font-semibold mb-4 text-white">Institucional</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
-                    <li><Link href="/servicos/direito-digital" className="hover:text-teal-400 transition-colors">Direito Digital</Link></li>
-                    <li><Link href="/servicos/direito-empresarial" className="hover:text-teal-400 transition-colors">Direito Empresarial</Link></li>
-                    <li><Link href="/areas-atuacao" className="hover:text-teal-400 transition-colors font-medium">Ver todas →</Link></li>
+                    <li><Link href="/sobre" className="hover:text-white transition-colors">Sobre Nós</Link></li>
+                    <li><Link href="/equipe" className="hover:text-white transition-colors">Nossa Equipe</Link></li>
+                    <li><Link href="/areas-atuacao" className="hover:text-white transition-colors">Áreas de Atuação</Link></li>
+                    <li><Link href="/trabalhe-conosco" className="hover:text-white transition-colors">Trabalhe Conosco</Link></li>
                   </ul>
                 </div>
               </ScrollReveal>
@@ -278,16 +283,20 @@ export default function TrabalheConoscoPage() {
                   <h4 className="font-semibold mb-4 text-white">Contato</h4>
                   <ul className="space-y-3 text-sm text-slate-400">
                     <li className="flex items-start gap-2">
-                      <Phone className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>(62) 99637-0290</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <Mail className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
+                      <Phone className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>(62) 99172-9323</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <Mail className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
                       <span>contato@soufeadvogados.com.br</span>
                     </li>
                     <li className="flex items-start gap-2">
-                      <MapPin className="w-4 h-4 text-teal-400 shrink-0 mt-0.5" />
-                      <span>Goiânia - GO</span>
+                      <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
+                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -298,7 +307,7 @@ export default function TrabalheConoscoPage() {
           <Separator className="bg-slate-800 mb-6 sm:mb-8" />
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
-            <p className="text-center md:text-left">© 2026 Soufe Advogados. Todos os direitos reservados.</p>
+            <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
             <a 
               href="https://www.linkedin.com/in/grlimaa/" 
               target="_blank" 
