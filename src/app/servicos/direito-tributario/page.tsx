@@ -38,7 +38,7 @@ export default function DireitoTributarioPage() {
               <ScrollReveal delay={0.2}>
                 <div><h2 className="text-2xl sm:text-3xl font-bold text-white mb-6">Nossa Expertise</h2>
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
-                    {expertise.map((item) => (<motion.div key={item.title} whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }} className="bg-white rounded-xl p-6 border border-slate-200 hover:border-[#27444C]500 transition-all"><div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-4"><item.icon className="w-6 h-6 text-[#27444C]600" strokeWidth={1.5} /></div><h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3><p className="text-sm text-white/90 leading-relaxed">{item.description}</p></motion.div>))}
+                    {expertise.map((item) => (<motion.div key={item.title} whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }} className="bg-white rounded-xl p-6 border border-slate-200 hover:border-[#27444C]500 transition-all"><div className="w-12 h-12 rounded-lg bg-teal-50 flex items-center justify-center mb-4"><item.icon className="w-6 h-6 text-[#27444C]600" strokeWidth={1.5} /></div><h3 className="text-lg font-semibold text-slate-900 mb-2">{item.title}</h3><p className="text-sm text-slate-600 leading-relaxed">{item.description}</p></motion.div>))}
                   </div>
                 </div>
               </ScrollReveal>
