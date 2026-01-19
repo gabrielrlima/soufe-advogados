@@ -78,7 +78,7 @@ export default function Home() {
           </motion.div>
           {/* Mobile Hero - Simplified */}
           <div 
-            className="md:hidden py-20 min-h-[85vh] rounded-3xl overflow-hidden px-6 relative"
+            className="md:hidden py-20 min-h-[85vh] rounded-3xl overflow-hidden relative flex flex-col"
             style={{
               backgroundImage: 'url(/bg_hero.jpg)',
               backgroundSize: 'cover',
@@ -89,50 +89,46 @@ export default function Home() {
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black/40" style={{ zIndex: 0 }} />
             
-            {/* Content */}
-            <div className="relative h-full" style={{ zIndex: 1 }}>
+            {/* Content - Flex container */}
+            <div className="relative flex-1 flex flex-col px-6" style={{ zIndex: 1 }}>
+              {/* Main Title */}
+              <motion.h1
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.2 }}
+                className="text-4xl sm:text-5xl font-normal text-white"
+                style={{
+                  fontFamily: 'DM Sans',
+                  fontWeight: 400,
+                  lineHeight: '120%',
+                  letterSpacing: '-2.16px'
+                }}
+              >
+                Atuação no direito cível, administrativo, empresarial e tributário
+              </motion.h1>
+
+              {/* Spacer to push button to bottom */}
+              <div className="flex-1" />
+
+              {/* CTA Button - 24px from bottom */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-                className="pt-0"
+                transition={{ duration: 0.8, delay: 0.4 }}
+                className="pb-6"
               >
-                {/* Main Title */}
-                <motion.h1
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-                  className="text-4xl sm:text-5xl font-normal text-white"
-                  style={{
-                    fontFamily: 'DM Sans',
-                    fontWeight: 400,
-                    lineHeight: '120%',
-                    letterSpacing: '-2.16px'
-                  }}
-                >
-                  Atuação no direito cível, administrativo, empresarial e tributário
-                </motion.h1>
-
-                {/* CTA Button */}
-                <motion.div
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.8, delay: 0.4 }}
-                  className="absolute bottom-6 left-0 right-0 px-6"
-                >
-                  <a href="https://wa.me/5562996370290" target="_blank" rel="noopener noreferrer">
-                    <motion.button
-                      whileHover={{ scale: 1.05, backgroundColor: '#4A8A94' }}
-                      whileTap={{ scale: 0.95 }}
-                      transition={{ duration: 0.2 }}
-                      className="w-full text-white font-semibold px-8 py-4 rounded-lg shadow-lg flex items-center justify-center gap-3 cursor-pointer text-lg"
-                      style={{ backgroundColor: '#5A9FA9' }}
-                    >
-                      <FaWhatsapp className="w-6 h-6" />
-                      Falar com especialista
-                    </motion.button>
-                  </a>
-                </motion.div>
+                <a href="https://wa.me/5562996370290" target="_blank" rel="noopener noreferrer">
+                  <motion.button
+                    whileHover={{ scale: 1.05, backgroundColor: '#4A8A94' }}
+                    whileTap={{ scale: 0.95 }}
+                    transition={{ duration: 0.2 }}
+                    className="w-full text-white font-semibold px-8 py-4 rounded-lg shadow-lg flex items-center justify-center gap-3 cursor-pointer text-lg"
+                    style={{ backgroundColor: '#5A9FA9' }}
+                  >
+                    <FaWhatsapp className="w-6 h-6" />
+                    Falar com especialista
+                  </motion.button>
+                </a>
               </motion.div>
             </div>
           </div>
