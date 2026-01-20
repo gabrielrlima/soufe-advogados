@@ -71,7 +71,7 @@ export default function DireitoDigitalPage() {
 
           <ScrollReveal delay={0.4}>
             <p className="text-lg sm:text-xl text-white/90 leading-relaxed max-w-3xl">
-              Proteção jurídica especializada para o ambiente digital, abrangendo LGPD, crimes cibernéticos, 
+              Proteção jurídica especializada para o ambiente digital, abrangendo LGPD, crimes cibernéticos,
               contratos de tecnologia e segurança da informação.
             </p>
           </ScrollReveal>
@@ -90,20 +90,20 @@ export default function DireitoDigitalPage() {
                     Sobre a Área
                   </h2>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    O Direito Digital é uma área em constante evolução que regula as relações jurídicas 
-                    que emergem do uso de tecnologias, internet, dados, plataformas digitais e inteligência 
-                    artificial. Com a transformação digital acelerada, empresas e indivíduos enfrentam novos 
+                    O Direito Digital é uma área em constante evolução que regula as relações jurídicas
+                    que emergem do uso de tecnologias, internet, dados, plataformas digitais e inteligência
+                    artificial. Com a transformação digital acelerada, empresas e indivíduos enfrentam novos
                     desafios jurídicos que exigem conhecimento especializado.
                   </p>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    A Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) é um pilar fundamental 
-                    desta área, estabelecendo diretrizes rigorosas para o tratamento de dados pessoais no 
-                    Brasil. Nossa equipe auxilia empresas na adequação completa à LGPD, implementando políticas 
+                    A Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) é um pilar fundamental
+                    desta área, estabelecendo diretrizes rigorosas para o tratamento de dados pessoais no
+                    Brasil. Nossa equipe auxilia empresas na adequação completa à LGPD, implementando políticas
                     de privacidade, segurança da informação e governança de dados.
                   </p>
                   <p className="text-white/90 leading-relaxed">
-                    Também atuamos fortemente na defesa contra crimes cibernéticos, que incluem golpes digitais, 
-                    invasão de contas, phishing, ransomware e vazamento de dados. Oferecemos suporte completo 
+                    Também atuamos fortemente na defesa contra crimes cibernéticos, que incluem golpes digitais,
+                    invasão de contas, phishing, ransomware e vazamento de dados. Oferecemos suporte completo
                     desde a investigação até a recuperação de ativos digitais e remoção de conteúdo ilícito.
                   </p>
                 </div>
@@ -228,7 +228,7 @@ export default function DireitoDigitalPage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -278,7 +278,7 @@ export default function DireitoDigitalPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -290,9 +290,9 @@ export default function DireitoDigitalPage() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >

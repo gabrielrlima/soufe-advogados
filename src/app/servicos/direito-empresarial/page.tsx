@@ -69,7 +69,7 @@ export default function DireitoEmpresarialPage() {
 
           <ScrollReveal delay={0.4}>
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-3xl">
-              Assessoria jurídica completa para empresas, desde a constituição até fusões e aquisições, 
+              Assessoria jurídica completa para empresas, desde a constituição até fusões e aquisições,
               garantindo segurança jurídica e decisões estratégicas.
             </p>
           </ScrollReveal>
@@ -86,13 +86,13 @@ export default function DireitoEmpresarialPage() {
                     Sobre a Área
                   </h2>
                   <p className="text-white/90 leading-relaxed mb-4">
-                    O Direito Empresarial regulamenta as atividades econômicas organizadas, abrangendo 
-                    as relações entre empresas, sócios, fornecedores e clientes. Nossa atuação garante 
+                    O Direito Empresarial regulamenta as atividades econômicas organizadas, abrangendo
+                    as relações entre empresas, sócios, fornecedores e clientes. Nossa atuação garante
                     segurança jurídica, previne litígios e auxilia na tomada de decisões estratégicas.
                   </p>
                   <p className="text-white/90 leading-relaxed">
-                    Oferecemos consultoria preventiva, contenciosa e de reorganização empresarial, 
-                    atuando em todas as fases do ciclo de vida da empresa, desde a constituição até 
+                    Oferecemos consultoria preventiva, contenciosa e de reorganização empresarial,
+                    atuando em todas as fases do ciclo de vida da empresa, desde a constituição até
                     processos de fusão, aquisição ou recuperação judicial.
                   </p>
                 </div>
@@ -212,7 +212,7 @@ export default function DireitoEmpresarialPage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -262,7 +262,7 @@ export default function DireitoEmpresarialPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -274,9 +274,9 @@ export default function DireitoEmpresarialPage() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >

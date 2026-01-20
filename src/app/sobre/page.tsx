@@ -71,7 +71,7 @@ export default function SobrePage() {
 
           <ScrollReveal delay={0.4}>
             <p className="text-lg sm:text-xl text-white/90 leading-relaxed max-w-3xl">
-              Somos um escritório de advocacia comprometido com a excelência jurídica e o atendimento 
+              Somos um escritório de advocacia comprometido com a excelência jurídica e o atendimento
               humanizado, oferecendo soluções personalizadas para cada cliente.
             </p>
           </ScrollReveal>
@@ -94,17 +94,17 @@ export default function SobrePage() {
                   </h2>
                 </div>
                 <p className="text-white/90 leading-relaxed">
-                  O Soufe Advogados nasceu da visão de criar um escritório que combinasse expertise jurídica 
-                  de alto nível com um atendimento verdadeiramente humanizado. Desde nossa fundação, temos o 
+                  O Soufe Advogados nasceu da visão de criar um escritório que combinasse expertise jurídica
+                  de alto nível com um atendimento verdadeiramente humanizado. Desde nossa fundação, temos o
                   compromisso de oferecer soluções jurídicas eficientes e personalizadas.
                 </p>
                 <p className="text-white/90 leading-relaxed">
-                  Nossa trajetória é marcada pela dedicação em compreender profundamente as necessidades de 
-                  cada cliente, seja pessoa física ou jurídica, e pela busca constante por resultados que 
+                  Nossa trajetória é marcada pela dedicação em compreender profundamente as necessidades de
+                  cada cliente, seja pessoa física ou jurídica, e pela busca constante por resultados que
                   superem expectativas.
                 </p>
                 <p className="text-white/90 leading-relaxed">
-                  Ao longo dos anos, construímos uma reputação sólida baseada em ética, transparência e 
+                  Ao longo dos anos, construímos uma reputação sólida baseada em ética, transparência e
                   excelência técnica, tornando-nos referência em diversas áreas do direito.
                 </p>
               </div>
@@ -139,7 +139,7 @@ export default function SobrePage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4">Missão</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Oferecer serviços jurídicos de excelência com atendimento humanizado, protegendo os 
+                    Oferecer serviços jurídicos de excelência com atendimento humanizado, protegendo os
                     direitos e interesses de nossos clientes com ética e compromisso.
                   </p>
                 </motion.div>
@@ -155,7 +155,7 @@ export default function SobrePage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4">Visão</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Ser reconhecido como referência em advocacia consultiva e contenciosa, destacando-se 
+                    Ser reconhecido como referência em advocacia consultiva e contenciosa, destacando-se
                     pela qualidade técnica e relacionamento próximo com os clientes.
                   </p>
                 </motion.div>
@@ -171,7 +171,7 @@ export default function SobrePage() {
                   </div>
                   <h3 className="text-xl font-bold text-slate-900 mb-4">Valores</h3>
                   <p className="text-slate-600 leading-relaxed">
-                    Ética, transparência, compromisso com o cliente, excelência jurídica e responsabilidade 
+                    Ética, transparência, compromisso com o cliente, excelência jurídica e responsabilidade
                     social são os pilares que guiam nossa atuação.
                   </p>
                 </motion.div>
@@ -222,8 +222,8 @@ export default function SobrePage() {
                     Nossos Diferenciais
                   </h2>
                   <p className="text-white/90 leading-relaxed mb-8">
-                    O que nos torna únicos é a combinação de expertise técnica com um atendimento que 
-                    valoriza cada cliente como único. Nosso compromisso vai além da prestação de serviços 
+                    O que nos torna únicos é a combinação de expertise técnica com um atendimento que
+                    valoriza cada cliente como único. Nosso compromisso vai além da prestação de serviços
                     jurídicos – construímos parcerias duradouras.
                   </p>
                   <Link href="/equipe">
@@ -259,7 +259,7 @@ export default function SobrePage() {
                 Vamos conversar sobre seu caso?
               </h2>
               <p className="text-white/90 mb-8 max-w-2xl mx-auto">
-                Entre em contato conosco e descubra como podemos ajudar você ou sua empresa 
+                Entre em contato conosco e descubra como podemos ajudar você ou sua empresa
                 com soluções jurídicas personalizadas.
               </p>
               <a href="https://wa.me/5562996370290" target="_blank" rel="noopener noreferrer">
@@ -286,7 +286,7 @@ export default function SobrePage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -336,7 +336,7 @@ export default function SobrePage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -348,9 +348,9 @@ export default function SobrePage() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >

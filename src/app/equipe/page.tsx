@@ -215,7 +215,7 @@ export default function EquipePage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 

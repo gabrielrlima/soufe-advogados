@@ -85,7 +85,7 @@ export default function AreasAtuacaoPage() {
 
           <ScrollReveal delay={0.4}>
             <p className="text-lg sm:text-xl text-slate-600 leading-relaxed max-w-3xl">
-              Conheça todas as áreas em que atuamos com excelência e compromisso, oferecendo soluções 
+              Conheça todas as áreas em que atuamos com excelência e compromisso, oferecendo soluções
               jurídicas personalizadas para cada necessidade.
             </p>
           </ScrollReveal>
@@ -106,7 +106,7 @@ export default function AreasAtuacaoPage() {
                   >
                     {/* Decorative gradient background */}
                     <div className="absolute top-0 right-0 w-32 h-32 bg-linear-to-br from-teal-500 to-teal-600 opacity-0 group-hover:opacity-10 transition-opacity rounded-bl-full" />
-                    
+
                     {/* Icon */}
                     <div className="w-16 h-16 rounded-xl bg-linear-to-br from-teal-500 to-teal-600 flex items-center justify-center mb-6 relative z-10">
                       <area.icon className="w-8 h-8 text-white" strokeWidth={1.5} />
@@ -174,7 +174,7 @@ export default function AreasAtuacaoPage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -224,7 +224,7 @@ export default function AreasAtuacaoPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -236,9 +236,9 @@ export default function AreasAtuacaoPage() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >

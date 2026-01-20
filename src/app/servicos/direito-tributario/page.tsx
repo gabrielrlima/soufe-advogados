@@ -9,8 +9,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function DireitoTributarioPage() {
-  const services = ["Planejamento tributário e elisão fiscal","Recuperação de créditos tributários","Defesa em processos administrativos fiscais","Consultoria em regimes tributários","Revisão e redução de impostos","Auditoria fiscal","Compensação e restituição de tributos","Contencioso tributário judicial"];
-  const expertise = [{icon: Calculator,title: "Planejamento Fiscal",description: "Estratégias legais para reduzir a carga tributária e otimizar a gestão fiscal."},{icon: TrendingDown,title: "Recuperação de Créditos",description: "Identificação e recuperação de tributos pagos indevidamente nos últimos 5 anos."},{icon: FileCheck,title: "Compliance Tributário",description: "Garantia de conformidade com a legislação fiscal e prevenção de autuações."}];
+  const services = ["Planejamento tributário e elisão fiscal", "Recuperação de créditos tributários", "Defesa em processos administrativos fiscais", "Consultoria em regimes tributários", "Revisão e redução de impostos", "Auditoria fiscal", "Compensação e restituição de tributos", "Contencioso tributário judicial"];
+  const expertise = [{ icon: Calculator, title: "Planejamento Fiscal", description: "Estratégias legais para reduzir a carga tributária e otimizar a gestão fiscal." }, { icon: TrendingDown, title: "Recuperação de Créditos", description: "Identificação e recuperação de tributos pagos indevidamente nos últimos 5 anos." }, { icon: FileCheck, title: "Compliance Tributário", description: "Garantia de conformidade com a legislação fiscal e prevenção de autuações." }];
   return (
     <div className="min-h-screen bg-background">
       <AnimatedNavbar />
@@ -50,12 +50,12 @@ export default function DireitoTributarioPage() {
             <div className="lg:col-span-1">
               <div className="sticky top-24 space-y-6">
                 <ScrollReveal delay={0.4}><motion.div whileHover={{ scale: 1.02 }} className="rounded-2xl p-8 text-white" style={{ backgroundColor: '#5A9FA9' }}><h3 className="text-xl font-bold mb-3">Precisa de Assessoria?</h3><p className="text-white/90 text-sm mb-6">Entre em contato com nossos especialistas em Direito Tributário.</p><a href="https://wa.me/5562996370290" target="_blank" rel="noopener noreferrer"><motion.button
-                        whileHover={{ scale: 1.05, backgroundColor: '#1F3338' }}
-                        whileTap={{ scale: 0.95 }}
-                        transition={{ duration: 0.2 }}
-                        className="w-full text-white px-6 py-3 rounded-md font-medium shadow-lg flex items-center justify-center gap-2 cursor-pointer"
-                        style={{ backgroundColor: '#27444C' }}
-                      ><FaWhatsapp className="w-5 h-5" />Falar com especialista</motion.button></a></motion.div></ScrollReveal>
+                  whileHover={{ scale: 1.05, backgroundColor: '#1F3338' }}
+                  whileTap={{ scale: 0.95 }}
+                  transition={{ duration: 0.2 }}
+                  className="w-full text-white px-6 py-3 rounded-md font-medium shadow-lg flex items-center justify-center gap-2 cursor-pointer"
+                  style={{ backgroundColor: '#27444C' }}
+                ><FaWhatsapp className="w-5 h-5" />Falar com especialista</motion.button></a></motion.div></ScrollReveal>
                 <ScrollReveal delay={0.5}><div className="bg-white rounded-xl p-6 border border-slate-200"><h3 className="text-lg font-semibold text-slate-900 mb-4">Outras Áreas</h3><div className="space-y-3"><Link href="/servicos/direito-administrativo" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">Direito Administrativo</Link><Link href="/servicos/direito-digital" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">Direito Digital</Link><Link href="/servicos/direito-consumidor" className="block text-sm text-slate-600 hover:text-[#27444C]600 transition-colors">Direito do Consumidor</Link><Link href="/areas-atuacao" className="block text-sm text-[#27444C]600 hover:text-[#27444C]700 font-medium transition-colors">Ver todas as áreas →</Link></div></div></ScrollReveal>
               </div>
             </div>
@@ -74,7 +74,7 @@ export default function DireitoTributarioPage() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -124,7 +124,7 @@ export default function DireitoTributarioPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -136,9 +136,9 @@ export default function DireitoTributarioPage() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >
