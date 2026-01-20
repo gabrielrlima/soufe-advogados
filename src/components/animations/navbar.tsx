@@ -73,10 +73,10 @@ export function AnimatedNavbar() {
                 height={33}
                 className="h-8 sm:h-10 w-auto"
               />
-              <div className="hidden md:block border-l border-white/30 pl-3">
-                <p className="text-white text-sm font-medium leading-tight">
+              <div className="border-l border-white/30 pl-2 sm:pl-3">
+                <p className="text-white text-[10px] sm:text-sm font-medium leading-tight">
                   Souza Fernandes<br />
-                  <span className="text-xs font-normal text-white/80">sociedade de advogados</span>
+                  <span className="text-[8px] sm:text-xs font-normal text-white/80">sociedade de advogados</span>
                 </p>
               </div>
             </div>
