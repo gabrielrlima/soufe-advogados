@@ -54,14 +54,14 @@ export default function Home() {
                 maxWidth: '800px'
               }}
             >
-                Atuação no direito cível, administrativo, empresarial e tributário
-              </motion.h1>
+              Atuação no direito cível, administrativo, empresarial e tributário
+            </motion.h1>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="absolute bottom-0 right-0 rounded-tl-2xl rounded-bl-2xl flex flex-col justify-center p-6" 
+              className="absolute bottom-0 right-0 rounded-tl-2xl rounded-bl-2xl flex flex-col justify-center p-6"
               style={{ width: 'calc(37% - 24px)', height: 'calc(38.25% + 8px)', backgroundColor: '#5A9FA9' }}
             >
               <p className="text-xs leading-relaxed mb-18 text-white">
@@ -77,7 +77,7 @@ export default function Home() {
 
           </motion.div>
           {/* Mobile Hero - Simplified */}
-          <div 
+          <div
             className="md:hidden py-20 min-h-[85vh] rounded-3xl overflow-hidden relative flex flex-col"
             style={{
               backgroundImage: 'url(/bg_hero.jpg)',
@@ -88,7 +88,7 @@ export default function Home() {
           >
             {/* Dark overlay */}
             <div className="absolute inset-0 bg-black/40" style={{ zIndex: 0 }} />
-            
+
             {/* Content - Flex container */}
             <div className="relative flex-1 flex flex-col px-6" style={{ zIndex: 1 }}>
               {/* Main Title */}
@@ -148,7 +148,7 @@ export default function Home() {
 
           <ScrollReveal delay={0.2}>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-normal text-center mb-12 sm:mb-16 max-w-4xl mx-auto px-4 text-white">
-              Nosso compromisso é a <motion.span 
+              Nosso compromisso é a <motion.span
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
@@ -171,7 +171,7 @@ export default function Home() {
               >
                 <div className="flex flex-col sm:flex-row items-center justify-center gap-12 sm:gap-16 md:gap-24">
                   {/* Anos de experiência */}
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.2 }}
@@ -184,12 +184,12 @@ export default function Home() {
 
                   {/* Vertical Divider - Hidden on mobile */}
                   <div className="hidden sm:block w-px h-32 bg-slate-200"></div>
-                  
+
                   {/* Horizontal Divider - Visible on mobile */}
                   <div className="sm:hidden w-32 h-px bg-slate-200"></div>
 
                   {/* Casos em atendimento */}
-                  <motion.div 
+                  <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 0.3 }}
@@ -237,7 +237,7 @@ export default function Home() {
 
           <ScrollReveal delay={0.3}>
             <p className="text-base sm:text-lg text-white/90 leading-relaxed text-center max-w-3xl mx-auto mb-12 sm:mb-16 px-4">
-              O escritório Soufe Advogados está preparado para atender suas expectativas e demandas em diversas áreas do direito, 
+              O escritório Soufe Advogados está preparado para atender suas expectativas e demandas em diversas áreas do direito,
               oferecendo soluções jurídicas estratégicas e personalizadas para cada cliente.
             </p>
           </ScrollReveal>
@@ -245,7 +245,7 @@ export default function Home() {
           {/* Mission, Vision, Values Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 sm:mb-16">
             <ScrollReveal delay={0.4}>
-              <motion.div 
+              <motion.div
                 whileHover={{ y: -4 }}
                 className="bg-white p-6 sm:p-8 rounded-xl border-2 border-slate-300 shadow-lg"
               >
@@ -254,14 +254,14 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold mb-3" style={{ color: '#27444C' }}>Missão</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Oferecer soluções jurídicas eficientes e personalizadas, defendendo os direitos de nossos clientes 
+                  Oferecer soluções jurídicas eficientes e personalizadas, defendendo os direitos de nossos clientes
                   com ética, transparência e comprometimento.
                 </p>
               </motion.div>
             </ScrollReveal>
 
             <ScrollReveal delay={0.5}>
-              <motion.div 
+              <motion.div
                 whileHover={{ y: -4 }}
                 className="bg-white p-6 sm:p-8 rounded-xl border-2 border-slate-300 shadow-lg"
               >
@@ -270,14 +270,14 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold mb-3" style={{ color: '#27444C' }}>Visão</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Ser referência em advocacia especializada, reconhecidos pela excelência técnica e 
+                  Ser referência em advocacia especializada, reconhecidos pela excelência técnica e
                   pelo relacionamento próximo e humanizado com nossos clientes.
                 </p>
               </motion.div>
             </ScrollReveal>
 
             <ScrollReveal delay={0.6}>
-              <motion.div 
+              <motion.div
                 whileHover={{ y: -4 }}
                 className="bg-white p-6 sm:p-8 rounded-xl border-2 border-slate-300 shadow-lg"
               >
@@ -286,7 +286,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-lg sm:text-xl font-semibold mb-3" style={{ color: '#27444C' }}>Valores</h3>
                 <p className="text-sm text-slate-600 leading-relaxed">
-                  Ética profissional, excelência técnica, comprometimento com resultados, 
+                  Ética profissional, excelência técnica, comprometimento com resultados,
                   transparência nas relações e respeito aos interesses dos clientes.
                 </p>
               </motion.div>
@@ -358,14 +358,14 @@ export default function Home() {
           <div className="space-y-4 sm:space-y-6 max-w-5xl mx-auto">
             <ScrollReveal delay={0.3}>
               <Link href="/servicos/direito-medico-saude">
-                <motion.div 
+                <motion.div
                   whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
                   transition={{ duration: 0.2 }}
                   className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <motion.div 
+                  <motion.div
                     whileHover={{ rotate: 5, scale: 1.05 }}
-                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0"
                     style={{ backgroundColor: '#27444C' }}
                   >
                     <Briefcase className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
@@ -384,14 +384,14 @@ export default function Home() {
 
             <ScrollReveal delay={0.4}>
               <Link href="/servicos/direito-estudantil">
-                <motion.div 
+                <motion.div
                   whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
                   transition={{ duration: 0.2 }}
                   className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <motion.div 
+                  <motion.div
                     whileHover={{ rotate: 5, scale: 1.05 }}
-                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0"
                     style={{ backgroundColor: '#27444C' }}
                   >
                     <BookOpen className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
@@ -410,14 +410,14 @@ export default function Home() {
 
             <ScrollReveal delay={0.5}>
               <Link href="/areas-atuacao">
-                <motion.div 
+                <motion.div
                   whileHover={{ y: -4, boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1)" }}
                   transition={{ duration: 0.2 }}
                   className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6 p-6 sm:p-8 bg-white rounded-xl border border-slate-200 hover:border-[#27444C]500 transition-all cursor-pointer"
                 >
-                  <motion.div 
+                  <motion.div
                     whileHover={{ rotate: 5, scale: 1.05 }}
-                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0" 
+                    className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl flex items-center justify-center shrink-0"
                     style={{ backgroundColor: '#27444C' }}
                   >
                     <Scale className="w-7 h-7 sm:w-8 sm:h-8 text-white" strokeWidth={1.5} />
@@ -441,9 +441,9 @@ export default function Home() {
       <section id="contato" className="py-12 sm:py-16 md:py-20 px-6 bg-slate-50">
         <div className="container mx-auto max-w-4xl">
           <ScrollReveal delay={0.2}>
-            <motion.div 
+            <motion.div
               whileHover={{ scale: 1.02 }}
-              className="rounded-2xl p-8 sm:p-12 md:p-16 text-center" 
+              className="rounded-2xl p-8 sm:p-12 md:p-16 text-center"
               style={{ backgroundColor: '#27444C' }}
             >
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-normal text-white mb-4 sm:mb-6 px-4">
@@ -487,7 +487,7 @@ export default function Home() {
                 className="h-10 w-auto mb-4"
               />
               <p className="text-slate-400 text-sm leading-relaxed">
-                Excelência jurídica e atendimento humanizado para proteger seus direitos com compromisso e transparência.
+                Souza Fernandes advogados é uma sociedade de advogados inscrita na OAB/GO sob o n° 005825 e CNPJ 51.294.033/0001-22.
               </p>
             </ScrollReveal>
 
@@ -537,7 +537,7 @@ export default function Home() {
                     </li>
                     <li className="flex items-start gap-2">
                       <MapPin className="w-4 h-4 text-[#27444C]400 shrink-0 mt-0.5" />
-                      <span>R. João de Abreu, 116<br/>Sala B1005<br/>Setor Oeste, Goiânia - GO<br/>CEP 74.120-110</span>
+                      <span>R. João de Abreu, 116<br />Sala B1005<br />Setor Oeste, Goiânia - GO<br />CEP 74.120-110</span>
                     </li>
                   </ul>
                 </div>
@@ -549,9 +549,9 @@ export default function Home() {
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-slate-400">
             <p className="text-center md:text-left">CNPJ: 51.294.033/0001-22 | © 2026 Soufe Advogados. Todos os direitos reservados.</p>
-            <a 
-              href="https://www.linkedin.com/in/grlimaa/" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/grlimaa/"
+              target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#27444C]400 transition-colors"
             >

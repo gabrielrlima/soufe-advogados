@@ -35,14 +35,14 @@ export function AnimatedNavbar() {
   useEffect(() => {
     const updateScroll = () => {
       const currentScrollY = window.scrollY;
-      
+
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         setHidden(true);
         setMobileMenuOpen(false); // Close menu when hiding navbar
       } else {
         setHidden(false);
       }
-      
+
       setLastScrollY(currentScrollY);
     };
 
@@ -66,13 +66,19 @@ export function AnimatedNavbar() {
         <div className="container mx-auto px-4 sm:px-6 py-3 sm:py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <Image 
-                src="/logosoufe.png" 
-                alt="Soufe Advogados" 
+              <Image
+                src="/logosoufe.png"
+                alt="Soufe Advogados"
                 width={100}
                 height={33}
                 className="h-8 sm:h-10 w-auto"
               />
+              <div className="hidden md:block border-l border-white/30 pl-3">
+                <p className="text-white text-sm font-medium leading-tight">
+                  Souza Fernandes<br />
+                  <span className="text-xs font-normal text-white/80">sociedade de advogados</span>
+                </p>
+              </div>
             </div>
 
             {/* Desktop Menu */}
@@ -85,9 +91,9 @@ export function AnimatedNavbar() {
                 Equipe
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-secondary transition-all group-hover:w-full"></span>
               </Link>
-              
+
               {/* Services Dropdown */}
-              <div 
+              <div
                 className="relative"
                 onMouseEnter={() => setServicesOpen(true)}
                 onMouseLeave={() => setServicesOpen(false)}
@@ -97,7 +103,7 @@ export function AnimatedNavbar() {
                   <ChevronDown className={`w-4 h-4 transition-transform ${servicesOpen ? 'rotate-180' : ''}`} />
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-secondary transition-all group-hover:w-full"></span>
                 </button>
-                
+
                 {/* Dropdown Menu */}
                 {servicesOpen && (
                   <div className="absolute top-full left-0 pt-2 w-64 z-50">
@@ -121,7 +127,7 @@ export function AnimatedNavbar() {
                   </div>
                 )}
               </div>
-              
+
               <Link href="/sobre" className="text-sm text-white hover:text-brand-secondary transition-colors font-medium relative group">
                 Sobre
                 <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-brand-secondary transition-all group-hover:w-full"></span>
@@ -167,7 +173,7 @@ export function AnimatedNavbar() {
             onClick={() => setMobileMenuOpen(false)}
             aria-hidden="true"
           />
-          
+
           {/* Slide-in Menu */}
           <motion.div
             initial={{ x: "100%" }}
@@ -182,9 +188,9 @@ export function AnimatedNavbar() {
             <div className="flex h-full flex-col">
               {/* Header */}
               <div className="flex items-center justify-between border-b border-slate-200 px-6 py-4">
-                <Image 
-                  src="/logo.png" 
-                  alt="Soufe Advogados" 
+                <Image
+                  src="/logo.png"
+                  alt="Soufe Advogados"
                   width={100}
                   height={33}
                   className="h-8 w-auto"
@@ -201,16 +207,16 @@ export function AnimatedNavbar() {
               {/* Navigation Links */}
               <nav className="flex-1 overflow-y-auto px-6 py-6">
                 <div className="space-y-1">
-                  <Link 
-                    href="/" 
+                  <Link
+                    href="/"
                     onClick={handleLinkClick}
                     className="block rounded-md px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-slate-100 hover:text-[#27444C]600 transition-colors"
                   >
                     Início
                   </Link>
-                  
-                  <Link 
-                    href="/equipe" 
+
+                  <Link
+                    href="/equipe"
                     onClick={handleLinkClick}
                     className="block rounded-md px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-slate-100 hover:text-[#27444C]600 transition-colors"
                   >
@@ -219,8 +225,8 @@ export function AnimatedNavbar() {
 
                   {/* Services Submenu */}
                   <div className="space-y-1">
-                    <Link 
-                      href="/areas-atuacao" 
+                    <Link
+                      href="/areas-atuacao"
                       onClick={handleLinkClick}
                       className="block rounded-md px-3 py-2.5 text-base font-medium text-slate-700 hover:bg-slate-100 hover:text-[#27444C]600 transition-colors"
                     >
@@ -260,9 +266,9 @@ export function AnimatedNavbar() {
 
               {/* Footer CTA */}
               <div className="border-t border-slate-200 p-6">
-                <a 
-                  href="https://wa.me/5562996370290" 
-                  target="_blank" 
+                <a
+                  href="https://wa.me/5562996370290"
+                  target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleLinkClick}
                 >
